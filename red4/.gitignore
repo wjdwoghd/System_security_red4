@@ -1,0 +1,42 @@
+# ==============================
+# Cryptographic keys / generated key files
+# ==============================
+red4/red4_private.pem
+red4/red4_public.pem
+red4/red4_key.bin
+
+*.pem
+*.key
+
+# ==============================
+# Build outputs
+# ==============================
+*.o
+*.out
+*.exe
+*.so
+*.a
+
+red4/red4
+red4/decrypt
+
+# ==============================
+# Runtime / temporary files
+# ==============================
+*.tmp
+*.enc
+
+# ==============================
+# Debug / logs
+# ==============================
+*.log
+core
+core.*
+
+# ==============================
+# IDE / OS
+# ==============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
